@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ThingsToDo</string>
+    <string name="save_button">Zapisz</string>
+    <string name="things_name">Nazwa</string>
+    <string name="things_place">Miejsce</string>
+    <string name="things_date">Data</string>
+    <string name="new_thing">Nowy</string>
+    <string name="third_column">Place</string>
+    <string name="dialogtext">Czy napewno usunąć ten Thing?</string>
+    <string name="button_positive">Usuń</string>
+    <string name="cancel">Anuluj</string>
+    <string name="date_pick">Wybierz datę</string>
+    <string name="time_pick">Wybierz czas</string>
+
+    <string-array name="when_remind_array">
+        <item>Na czas</item>
+        <item>1 h przed</item>
+        <item>2 h przed </item>
+        <item>Dzień przed</item>
+        <item>2 dni przed</item>
+        <item>Tydzień przed</item>
+        <item>2 tygodnie przed</item>
+    </string-array>
+
+</resources>

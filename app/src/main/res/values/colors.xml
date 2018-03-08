@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#25A141</color>
+    <color name="rowColor">#60c3a9c6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toolbarColor">#25A141</color>
+    <color name="saveColor">#3f9cff</color>
+    <color name="thingColor">#90cceefc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000</color>
+</resources>

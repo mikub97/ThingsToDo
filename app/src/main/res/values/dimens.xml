@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">16dp</dimen>
+    <dimen name="alarm_icon_size">30dp</dimen>
+    <dimen name="table_row_distance">10dp</dimen>
+    <dimen name="thing_txt_size">20dp</dimen>
+    <dimen name="view_text_size">20dp</dimen>
+    <dimen name="view_icon_size">50dp</dimen>
+    <dimen name="space_between_thing">5dp</dimen>
+
+</resources>

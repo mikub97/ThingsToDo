@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@mipmap/tlo">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/toolbarColor"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:stretchColumns="1"
+        android:background="@color/toolbarColor"
+        android:id="@+id/tableLayout">
+        <TableRow>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:visibility="invisible" />
+            <TextView
+                android:text="@string/things_name"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/black"
+                android:layout_gravity="center" />
+            <ImageView
+                android:layout_width="@dimen/alarm_icon_size"
+                android:layout_height="@dimen/alarm_icon_size"/>
+            <TextView
+                android:text="@string/things_date"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_gravity="center" />
+
+
+        </TableRow>
+    </TableLayout>
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="wrap_content"
+                android:dividerHeight="5dp"
+
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:scrollbars="horizontal"
+                android:layout_below="@+id/tableLayout" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/new_thing_button"
+        app:srcCompat="@mipmap/newthing"
+        android:scaleType="fitXY"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="newThing_function"
+        android:background="@null"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>
